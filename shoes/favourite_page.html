@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>FAVOURITE PAGE</title>
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<link rel = "stylesheet" href = "../styles/main_styles.css">	<!--navigation bar and footer-->
+		<link rel = "stylesheet" href = "../styles/favourite_page_styles.css">	<!--favourite page styles-->
+		<script src="../javascripts/shoe_and_fav_script.js"> </script> <!--script for shoe page-->
+		<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">    <!-- fonts -->
+		<script>
+		
+			let data = {"shoes": [
+				{"id": "shoe1",
+				"name": "Pure Tone",
+				"gender": "Women",
+				"style": "Flat",
+				"sizes": [
+				4,
+				5,
+				6,
+				7
+				],
+				"price": 75.00,
+				"colour": "Black",
+				"description": "These chic snake print shoes are crafted from a combination of soft leather and nubuck.",
+				"picture": "images/shoePics/shoe1/shoe1_1.jpg",
+				"url": "shoes/shoe1.html"
+				},
+				{
+	            "id": "shoe2",
+	            "name": "Orinoco 2 Lace",
+	            "gender": "Women",
+	            "style": "Casual",
+	            "sizes": [
+	            5,
+	            6,
+	            7
+	            ],
+	            "price": 89.00,
+	            "colour": "Brown",
+	            "description": "Refreshing our bestselling Orinoco profile, a lace-up ankle boot that stays all day",
+	            "picture": "images/shoePics/shoe2/shoe2_1.jpg",
+	            "url": "shoes/shoe2.html"
+            },
+            {
+	            "id": "shoe3",
+	            "name": "TriPathSprtGTX Black Combi Leather",
+	            "gender": "Universal",
+	            "style": "flat",
+	            "sizes": [
+	            5,
+	            6,
+	            7,
+	            8,
+	            9,
+	            10,
+	            12
+	            ],
+	            "price": 100.00,
+	            "colour": "Black",
+	            "description": "Ideal for getting off the beaten track, Tri Path Sport GTX is an innovative",
+	            "picture": "images/shoePics/shoe3/shoe3_1.jpg",
+	            "url": "shoes/shoe3.html"
+	            },
+	            {
+	            "id": "shoe4",
+	            "name": "Wallabee Boot Blue Combi",
+	            "gender": "Men",
+	            "style": "Casual",
+	            "sizes": [
+	            4,
+	            5,
+	            6,
+	            7,
+	            8,
+	            9,
+	            10,
+	            12
+	            ],
+	            "price": 120.00,
+	            "colour": "Blue",
+	            "description": "Inspired by our roots in Somerset and mystical Glastonbury,",
+	            "picture": "images/shoePics/shoe4/shoe4_1.jpg",
+	            "url": "shoes/shoe4.html"
+	            },
+	            {
+	            "id": "shoe5",
+	            "name": "Un Damson Adele Black Leather",
+	            "gender": "Women",
+	            "style": "Heels",
+	            "sizes": [
+	            5,
+	            6,
+	            10,
+	            12
+	            ],
+	            "price": 150.00,
+	            "colour": "Black",
+	            "description": "With interest detailing on the toe, ",
+	            "picture": "images/shoePics/shoe5/shoe5_1.jpg",
+	            "url": "shoes/shoe5.html"
+            },
+            {
+	            "id": "shoe6",
+	            "name": "Howard Cap Black Leather",
+	            "gender": "Men",
+	            "style": "Formal",
+	            "sizes": [
+	            4,
+	            5,
+	            6,
+	            7,
+	            8,
+	            9,
+	            10,
+	            12
+	            ],
+	            "price": 130.00,
+	            "colour": "Black",
+	            "description": "Teaming a classic aesthetic with contemporary comfort features,",
+	            "picture": "images/shoePics/shoe6/shoe6_1.jpg",
+	            "url": "shoes/shoe6.html"
+	            },
+	            {
+	            "id": "shoe7",
+	            "name": "Violet 55 Court Leopard Print",
+	            "gender": "Women",
+	            "style": "Heels",
+	            "sizes": [
+	            4,
+	            5,
+	            6,
+	            7,
+	            8,
+	            9,
+	            10,
+	            12
+	            ],
+	            "price": 200.00,
+	            "colour": "Brown",
+	            "description": "A feminine court shoe that moves elegantly from office to evening,",
+	            "picture": "images/shoePics/shoe7/shoe7_1.jpg",
+	            "url": "shoes/shoe7.html"
+            }]}
+		
+		</script>
+	</head>
+	
+	<body>
+		<!--NAVIGATION BAR OF THE PAGE -->
+		<body>
+		<div class="hero">
+		<nav>
+			<h2 class="logo">SHOES<span>.me</span></h2>
+			<ul>
+				<li><a href = "../search_page.html"> SEARCH PAGE </a></li>
+				<li><a href = "favourite_page.html"> FAVOURITES PAGE </a></li>
+			</ul>
+		</nav>
+	</div>
+		
+		<section class = "favourite_body">	<!--BODY OF THE FAVOURITE PAGE -->
+			<button id= "view_fav">VIEW FAVOURITE SHOE</button>	<!--button to view the list of favourite shoe-->
+			<div id="favourite_placeholder"></div>	<!--list of favourite shoe-->
+		</section>
+		
+		<!--FOOTER OF THE PAGE-->
+				<footer>	<!--FOOTER OF THE PAGE-->
+			<p>Thejana Ravindu</p>
+			<p class="end">Created with Love</p>
+		</footer>
+		
+	</body>
+	
+</html>

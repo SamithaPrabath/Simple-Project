@@ -1,0 +1,98 @@
+{
+	"shoes": [
+        {   
+            "id":"shoe1",
+            "name":"Pure Tone",
+            "gender":"Women",
+            "style":"Flat",
+            "sizes":[4, 5, 6, 7],
+            "price":75.00,
+            "colour":"Black",
+            "description":"These chic snake print shoes are crafted from a combination of soft leather and nubuck. For ultimate versatility, they feature a heel piece that folds down - allowing them to be worn as slip-ons or mules. The simple yet sophisticated upper is teamed with a low 2cm heel and rubber outsole to help with grip, while a leather lining and sock work together with our dual density Cushion Plus™ technology to provide comfort in every step.",
+            "picture":"images/shoePics/shoe1/shoe1_1.jpg",
+            "url":"shoes/shoe1.html"
+        },
+	{
+            "id":"shoe2",
+            "name":"Orinoco 2 Lace",
+            "gender":"Women",
+            "style":"Casual",
+            "sizes":[5, 6, 7],
+			"price":89.00,
+            "colour":"Brown",
+			"description":"Refreshing our bestselling Orinoco profile, a lace-up ankle boot that stays all day wearable. The premium dark olive leather upper stays classic and crafted while the cleated sole with 3cm heel feels durable and adds grip. Perfect to step into the season with casual style.",
+			"picture":"images/shoePics/shoe/shoe2_1.jpg",
+			"url":"shoes/shoe2.html"
+        }
+
+	},
+	{
+            "id":"shoe3",
+            "name":"TriPathSprtGTX Black Combi Leather",
+            "gender":"Universal",
+            "style":"flat",
+            "sizes":[5, 6, 7, 8, 9, 10, 12,],
+			"price":100.00,
+            "colour":"Black",
+			"description":"Ideal for getting off the beaten track, Tri Path Sprt GTX is an innovative outdoor walking shoe made from black leather. Fusing expert craftsmanship with cutting edge technology, it utilises our iconic Trigenic system, offering the ultimate in natural movement through an ergonomic fit, targeted flex points and responsive cushioning. This trainer is finished with breathable GORE-TEX® and a durable yet lightweight rubber sole to keep steps dry, comfortable, and confident.",
+			"picture":"images/shoePics/shoe3/shoe3_1.jpg",
+			"url":"shoes/shoe3.html"
+        }
+
+	},
+	{
+            "id":"shoe4",
+            "name":"Wallabee Boot Blue Combi",
+            "gender":"Men",
+            "style":"Casual",
+            "sizes":[4, 5, 6, 7, 8, 9, 10, 12,],
+			"price":120.00,
+            "colour":"Blue",
+			"description":"Inspired by our roots in Somerset and mystical Glastonbury, this heritage take on our iconic Wallabee Boot is finished with a bespoke, statement stitch pattern created by our in-house design team.",
+			"picture":"images/shoePics/shoe4/shoe4_1.jpg",
+			"url":"shoes/shoe4.html"
+        }
+
+	},
+	{
+            "id":"shoe5",
+            "name":"Un Damson Adele Black Leather",
+            "gender":"Women",
+            "style":"Heels",
+            "sizes":[5, 6, 10, 12,],
+			"price":150.00,
+            "colour":"Black",
+			"description":"With interest detailing on the toe, these slip-on shoes with a wearable 5cm heel are a timeless addition to your work wardrobe. Crafted from a black leather and with a durable rubber sole that provides traction as you walk, these shoes from our Unstructured collection have a flexible feel that ensures long-lasting comfort.",
+			"picture":"images/shoePics/shoe5/shoe5_1.jpg",
+			"url":"shoes/shoe5.html"
+        }
+
+	},
+	{
+            "id":"shoe6",
+            "name":"Howard Cap Black Leather",
+            "gender":"Men",
+            "style":"Formal",
+            "sizes":[4, 5, 6, 7, 8, 9, 10, 12,],
+			"price":130.00,
+            "colour":"Black",
+			"description":"Teaming a classic aesthetic with contemporary comfort features, Howard Cap in soft, rich black leather is the ideal everyday smart shoe. Its hidden stretch, padded toplines, breathable sock and targeted Cushion Plus™ technology are ideal for comfortable all-day wear, and recycled content in the laces and footbed boosts this pair’s eco credentials.",
+			"picture":"images/shoePics/shoe6/shoe6_1.jpg",
+			"url":"shoes/shoe6.html"
+        }
+
+	},
+	{
+            "id":"shoe7",
+            "name":"Violet 55 Court Leopard Print",
+            "gender":"Women",
+            "style":"Heels",
+            "sizes":[4, 5, 6, 7, 8, 9, 10, 12,],
+			"price":200.00,
+            "colour":"Brown",
+			"description":"A feminine court shoe that moves elegantly from office to evening, Violet 55 Court combines a timeless sophisticated silhouette with a contemporary heel shape for effortless versatility. With soft leather linings and a striking leopard print suede upper, it’s a comfortable and stylish shoe ideal for dress up or dress down moments.",
+			"picture":"images/shoePics/shoe7/shoe7_1.jpg",
+			"url":"shoes/shoe7.html"
+        }
+	
+]}

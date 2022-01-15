@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+	
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Shoe</title>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="jquery-ui-1.9.0.custom.min.js"></script>		
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">	
+		
+		<link rel="stylesheet" href="../styles/main_styles.css"> <!--header and footer styles-->
+		<link rel="stylesheet" href="../styles/shoe_page_styles.css"> <!--shoe styles-->
+		
+		
+		<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		
+		
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		
+		<script src="../javascripts/shoe_and_fav_script.js"> </script> <!--script for shoe page-->
+		<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">    <!-- fonts -->
+		
+	</head>	
+	<body>
+		<div class="hero">
+		<nav>
+			<h2 class="logo">SHOES<span>.me</span></h2>
+			<ul>
+				<li><a href = "../search_page.html"> SEARCH PAGE </a></li>
+				<li><a href = "favourite_page.html"> FAVOURITES PAGE </a></li>
+			</ul>
+		</nav>
+	</div>
+		
+		<div class = "body_contents">	<!--CONTENT OF THE PAGE-->
+		  
+			<section id = "shoe_page">
+				<div class = "shoe_display">
+					<header><h1>Orinoco 2 Lace</h1></header>	<!--PAGE HEADER-->
+					
+					<section id = "description" >	<!--shoeERTIES DESCRIPTION SECTION-->
+						<p>Shoe Color -- Brown</p>
+						<p>Price -- $89.00</p>
+						<p>Style -- Casual</p>
+					</section>
+					
+					<section id = "shoe_images">	<!--shoeERTIES IMAGE SECTION-->
+						<img src = "../images/shoePics/shoe2/shoe2_1.jpg"  alt = "shoe_main_img" style="width:400px;height:300px;">
+						
+						<div class="bod-modal" data-interval="0">	<!--THUMBNAIL OF THE shoe-->
+							<div><a href = "../images/shoePics/shoe2/shoe2_1.jpg" title = "shoe2pic2"><img src = "../images/shoePics/shoe2/shoe2_1.jpg" alt = "shoe_thumbnail" class = "thumbnail_img"></a>
+								<a href = "../images/shoePics/shoe2/shoe2_2.jpg" title = "shoe2pic1"><img src = "../images/shoePics/shoe2/shoe2_2.jpg" alt = "shoe_thumbnail" class = "thumbnail_img"></a>
+							</div>
+							
+							<div><a href = "../images/shoePics/shoe2/shoe2_3.jpg" title = "shoe2pic2"><img src = "../images/shoePics/shoe2/shoe2_3.jpg" alt = "shoe_thumbnail" class = "thumbnail_img"></a>
+								<a href = "../images/shoePics/shoe2/shoe2_4.jpg" title = "shoe2pic3"><img src = "../images/shoePics/shoe2/shoe2_4.jpg" alt = "shoe_thumbnail" class = "thumbnail_img"></a>
+							</div>
+							
+							
+						</div>
+					</section>
+					
+					<section id = "tab">	<!--shoeERTIES TAB SECTION-->
+						<ul>
+							<li><a href = "#tab-1">Long Description</a></li>
+							<li><a href = "#tab-2">Size Guide</a></li>
+							<li><a href = "#tab-3">Delivery & Return Details</a></li>
+						</ul>
+					
+						<section id = "tab-1">
+							<p>Refreshing our bestselling Orinoco profile, a lace-up ankle boot that stays all day wearable. The premium dark olive leather upper stays classic and crafted while the cleated sole with 3cm heel feels durable and adds grip. Perfect to step into the season with casual style.</p>
+						</section>
+						
+						<section id = "tab-2">
+							<img src = "../images/shoePics/sizeguide.png" alt = "shoe_plan" style = "width: 100%; height: auto">
+						</section>
+						
+						<section id = "tab-3">
+							<pre>£6.95
+DPD Next Day Delivery (Order before 7pm)
+FREE
+Collect from store (Within 4 working days)
+£3.95
+Standard Delivery (Within 4 working days)
+£3.95
+Collect Plus (Within 5 working days)
+£5.95
+Hermes Express Delivery (Within 2 working days)
+FREE
+Returns & Exchanges on all Items</pre>
+						</section>
+					</section>
+				</div>
+			</section>
+			
+			<aside id = "side_favourite_list">	<!--FAVORITE LIST -->
+				<header><h1>FAVOURITE LIST</h1></header>
+				
+				<div id = "all_contents" >
+					<section id = "shoe" class = "shoe reset ui-helper-clearfix">
+						<div class = "ui-widget-content ui-corner-tr" id = "shoe_contents">
+							<h5>shoe</h5>
+							<img src = "../images/shoePics/shoe2/shoe2_1.jpg" alt = "shoe image" width = "96" height = "72">
+							<a href ="link/to/favorite/script/when/we/have/js/off" title = "add favorite image" class = "ui-icon ui-icon-favorite">add favorite shoe</a>
+						</div>
+					</section>	
+					<div id = "favorite" class = "ui-widget-content">
+						<h4 class = "ui-widget-header"><span class = "ui-icon ui-icon-favorite">favorite</span>FAVORITE</h4>
+						<p id = "message">*Drag the shoe to favorites if you like*</p>
+					</div>
+				</div>
+				
+				<p id = "shoe2">				
+					<button id="fav_button" type="button" >ADD TO FAVORITE</button>	<!--BUTTON TO ADD TO FAVORITE LIST-->
+				</p>
+			</aside>
+	
+		</div>
+		
+		<footer>	<!--FOOTER OF THE PAGE-->
+			<p>Thejana Ravindu</p>
+			<p class="end">Created with Love</p>
+		</footer>
+		
+	</body>
+</html>

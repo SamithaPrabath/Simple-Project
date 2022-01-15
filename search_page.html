@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title> SEARCH PAGE </title>
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+		<!-- <link rel="stylesheet" href="styles/search_page_styles.css"> -->
+		<!--navigation bar and footer-->
+		<script src="javascripts/search_page_script.js"> </script>
+		<link rel="stylesheet" href="./css/style.css">
+		<!--search page JS file-->
+		<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+		<!-- fonts -->
+
+		<script>
+			let data = {"shoes": [
+				{"id": "shoe1",
+				"name": "Pure Tone",
+				"gender": "Women",
+				"style": "Flat",
+				"sizes": [
+				4,
+				5,
+				6,
+				7
+				],
+				"price": 75.00,
+				"colour": "Black",
+				"description": "These chic snake print shoes are crafted from a combination of soft leather and nubuck.",
+				"picture": "images/shoePics/shoe1/shoe1_1.jpg",
+				"url": "shoes/shoe1.html"
+				},
+				{
+	            "id": "shoe2",
+	            "name": "Orinoco 2 Lace",
+	            "gender": "Women",
+	            "style": "Casual",
+	            "sizes": [
+	            5,
+	            6,
+	            7
+	            ],
+	            "price": 89.00,
+	            "colour": "Brown",
+	            "description": "Refreshing our bestselling Orinoco profile, a lace-up ankle boot that stays all day",
+	            "picture": "images/shoePics/shoe2/shoe2_1.jpg",
+	            "url": "shoes/shoe2.html"
+            },
+            {
+	            "id": "shoe3",
+	            "name": "TriPathSprtGTX Black Combi Leather",
+	            "gender": "Universal",
+	            "style": "flat",
+	            "sizes": [
+	            5,
+	            6,
+	            7,
+	            8,
+	            9,
+	            10,
+	            12
+	            ],
+	            "price": 100.00,
+	            "colour": "Black",
+	            "description": "Ideal for getting off the beaten track, Tri Path Sport GTX is an innovative",
+	            "picture": "images/shoePics/shoe3/shoe3_1.jpg",
+	            "url": "shoes/shoe2.html"
+	            },
+	            {
+	            "id": "shoe4",
+	            "name": "Wallabee Boot Blue Combi",
+	            "gender": "Men",
+	            "style": "Casual",
+	            "sizes": [
+	            4,
+	            5,
+	            6,
+	            7,
+	            8,
+	            9,
+	            10,
+	            12
+	            ],
+	            "price": 120.00,
+	            "colour": "Blue",
+	            "description": "Inspired by our roots in Somerset and mystical Glastonbury,",
+	            "picture": "images/shoePics/shoe4/shoe4_1.jpg",
+	            "url": "shoes/shoe2.html"
+	            },
+	            {
+	            "id": "shoe5",
+	            "name": "Un Damson Adele Black Leather",
+	            "gender": "Women",
+	            "style": "Heels",
+	            "sizes": [
+	            5,
+	            6,
+	            10,
+	            12
+	            ],
+	            "price": 150.00,
+	            "colour": "Black",
+	            "description": "With interest detailing on the toe, ",
+	            "picture": "images/shoePics/shoe5/shoe5_1.jpg",
+	            "url": "shoes/shoe2.html"
+            },
+            {
+	            "id": "shoe6",
+	            "name": "Howard Cap Black Leather",
+	            "gender": "Men",
+	            "style": "Formal",
+	            "sizes": [
+	            4,
+	            5,
+	            6,
+	            7,
+	            8,
+	            9,
+	            10,
+	            12
+	            ],
+	            "price": 130.00,
+	            "colour": "Black",
+	            "description": "Teaming a classic aesthetic with contemporary comfort features,",
+	            "picture": "images/shoePics/shoe6/shoe6_1.jpg",
+	            "url": "shoes/shoe2.html"
+	            },
+	            {
+	            "id": "shoe7",
+	            "name": "Violet 55 Court Leopard Print",
+	            "gender": "Women",
+	            "style": "Heels",
+	            "sizes": [
+	            4,
+	            5,
+	            6,
+	            7,
+	            8,
+	            9,
+	            10,
+	            12
+	            ],
+	            "price": 200.00,
+	            "colour": "Brown",
+	            "description": "A feminine court shoe that moves elegantly from office to evening,",
+	            "picture": "images/shoePics/shoe7/shoe7_1.jpg",
+	            "url": "shoes/shoe2.html"
+            }]}
+		</script>
+
+		</head>
+
+<body>
+
+
+	<div class="hero">
+		<nav>
+			<h2 class="logo">SHOES<span>.me</span></h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Search </a></li>
+			</ul>
+		</nav>
+	</div>
+	</div>
+
+	<section class="search_form_box">
+		<!--SEARCH FORM-->
+		<section class="search_form">
+			<h2> Find Your Matching Shoe </h2>
+			<form>
+				<label>GENDER : </label><br>
+				<!--FOR THE TYPE OF THE shoe-->
+				<label for="TYPE1">Men</label>
+				<input type="radio" name="type" id="TYPE1" class="GENDER[]" value="Men">
+				<label for="TYPE2">Women</label>
+				<input type="radio" name="type" id="TYPE2" class="GENDER[]" value="Women">
+				<label for="TYPE3">Universal</label>
+				<input type="radio" name="type" id="TYPE3" class="GENDER[]" value="Universal" checked>
+
+				<br>
+
+				<label for="PRICE">PRICE : </label><br>
+				<!--FOR THE PRICE OF THE shoe-->
+				<input type="text" id="PRICE" name="price">
+				<div id="slider-range"></div>
+
+				<br>
+
+				<label>Shoe Size : </label><br><br>
+				<!--FOR THE NO-OF BEDROOMS OF THE shoe-->
+				<select name="shoe-sizes" id="shoe_sizes" class="shoe_sizes">
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+				</select>
+				<br><br>
+				<label for="shoe_color">Colour</label><br>
+				<select name="shoes" id="shoe_color" class="shoe_color">
+					<option>Black</option>
+					<option>White</option>
+					<option>Blue</option>
+					<option>Brown</option>
+				</select>
+				<br><br>
+				<label for="shoe_style">Style</label><br>
+				<select name="shoes" id="shoe_style" class="shoe_style">
+					<option>Formal</option>
+					<option>Flat</option>
+					<option>Heels</option>
+					<option>Casual</option>
+				</select>
+				<br><br>
+				<button id="search" type="button">SEARCH SHOES</button>
+				<br><br />
+			</form>
+		</section>
+
+		<div id="placeholder"></div>
+
+	</section>
+	<!------footer start--------->
+	<footer>
+		<p>Thejana Ravindu</p>
+		<p class="end">Created with Love</p>
+	</footer>
+</body>
+
+</html>

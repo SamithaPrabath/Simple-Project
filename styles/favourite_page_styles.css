@@ -1,0 +1,36 @@
+/*style for the description of the favourite shoe*/
+
+.shoe{
+	border-bottom:2px solid black;
+	border-top: 2px solid black;
+}
+
+.shoe a {
+	color : black;		
+}
+
+.shoe li {
+	color:#2e2224;
+	margin-top : 10px;
+	font-size : 1.2em;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+/*style for the image of the favourite shoe*/
+
+img[alt = "favourite_img"]{
+    max-width:100%;
+    height:auto;
+	margin-left : 40px;
+	border:2px solid gray;
+	box-shadow: 0 16px 10px rgba(0,0,0,0.5);
+	width:30%;
+}
+
+/*style for the content favourite shoe*/
+
+#favourite_placeholder{
+	margin-top : 50px;
+	background-color:#d6cecf;
+	border:2px solid black;
+}

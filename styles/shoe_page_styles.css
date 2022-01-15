@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*styles for the shoeerties page content********/
+.body_contents{
+	//background-image: linear-gradient(to right ,rgba(166, 101, 108,0.5), rgba(255, 255, 255,0.5),rgba(166, 101, 108,0.5) );
+	background-color:gray;
+	display: flex;
+	padding-top :5%;
+	justify-content: center;
+	align-items: center;
+	padding-bottom:50px;
+	margin-bottom:5%;
+}
+
+/*styles for the headers of the page************/
+header {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: bold;
+	text-align:center;
+	font-size: 15px;
+	color:pink;
+}
+
+h1{		
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: bold;																										  
+	margin:0;
+	margin-bottom :20px;
+	font-size: 2em;
+	color:white;
+	text-shadow: 0 20px 4px rgba(0,0,0,0.3); 
+	text-align:center;
+}
+
+/*shoe STYLES*******************************/
+
+.shoe_display{
+	border: 2px black solid;
+	background-color:rgba(10,10,10,0.8);
+	width: 800px;
+	font-size: 12px;
+	padding: 10px;
+	margin: 0%;
+}
+/*shoe's description styles*/
+#description{
+	color: #e36b7e;
+	font-size: 1.4em;
+	border-top:2px solid gray;
+	border-bottom:2px solid gray;
+	padding:20px 0px 20px 0px;
+}
+
+/*shoe's thumbnail images styles*/
+#shoe_images{
+	padding-bottom : 50px;
+	margin-left:0px;
+	margin-top:50px;
+	border-bottom:2px solid gray;
+}
+
+/*shoe's main image styles*/
+img[alt = "shoe_main_img"]{
+	float:right;
+	border:2px solid black;
+	width:400px;
+	height:300px;
+}
+
+.bod-modal{
+	white-space: nowrap;
+	padding: 0;
+	margin: 0;
+	width: 42%;
+	align-items: center;
+	justify-content: center;
+}
+
+.thumbnail_img{
+	width: 41%;
+	border: 2px solid black;
+}
+
+/*style for shoe's tab contenets*/
+
+#tab{
+	margin-top:20px;
+	font-size: 1.2em;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: bold;
+	color:black;
+}
+
+
+/*shoe FAVOURITE LIST STYLES************************************************************************/
+
+#side_favourite_list{
+	float: right;
+	width:25%;
+	background-color: gray;
+	border: 2px black solid;
+	padding: 10px;
+}
+
+#all_contents{
+	width: 100%;
+}
+
+.shoe div{
+	float:left;
+	width:96px;
+	padding:0.4em;
+	margin:0 0.4em 0.4em 0;
+	text-align: center;
+}
+
+.shoe div h5{
+	font-family: 'Cormorant Garamond', serif;
+	color: #e36b7e;
+	margin: 0 0 0.4em;
+	cursor:move;
+}
+
+.shoe div a{
+	float: right;
+}
+
+.shoe div img{
+	width: 100%;
+	cursor: move;
+}
+
+#shoe{
+	float:right;
+	width:50%;
+	min-height:12em;
+}
+
+/*styles for the draggabe shoe in favourite_list*/
+#shoe_contents{
+	background-image: linear-gradient(to right ,rgba(166, 101, 108,0.5), rgba(255, 255, 255,0.5),rgba(166, 101, 108,0.5) );
+	width:80%;
+}
+
+#favorite{
+	float:left;
+	width:45%;
+	min-height:10em;
+	padding:1%;
+}
+
+#favorite h4{
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: bold;
+	line-height:16px;
+	margin:0 0 0.4em;
+}
+
+#favorite h4 .ui-icon{
+	float:left;
+}
+
+#favorite .shoe h5{
+	display:none;
+}
+
+#message {
+	color: #361f07;
+}
+
+
+
+
+
+
