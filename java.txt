@@ -1,0 +1,25 @@
+package practice_01;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Employee {
+	public static void main(String[] args) {
+		String selenium_path="E:\\Educational\\My lerning\\Python\\Tutorials\\SeleniumDrivers\\chromedriver.exe";
+		String url="http://localhost:4000/admin";
+		System.setProperty("webdriver.chrome.driver",selenium_path);
+		WebDriver driver=new ChromeDriver();
+		driver.get(url);
+		
+		WebElement userName = driver.findElement(By.name("username"));
+		userName.sendKeys("admin");
+		
+		WebElement password = driver.findElement(By.name("password"));
+		password.sendKeys("admin123");
+		
+		WebElement login = driver.findElement(By.xpath("/html/body/div/div/div/div/div/div/div[2]/form/button[1]"));
+		login.click();
+	}
+}
